@@ -41,7 +41,7 @@ jobs:
                   \"type\": \"AdaptiveCard\",
                   \"version\": \"1.2\",
                   \"body\": [
-                    {\"type\": \"TextBlock\", \"text\": \"nopCommerce CI/CD - $STATUS\", \"weight\": \"Bolder\", \"size\": \"Medium\"},
+                    {\"type\": \"TextBlock\", \"text\": \"Al Basher CI/CD - $STATUS\", \"weight\": \"Bolder\", \"size\": \"Medium\"},
                     {\"type\": \"TextBlock\", \"text\": \"Commit: ${{ github.sha }}\"},
                     {\"type\": \"TextBlock\", \"text\": \"Message: ${{ github.event.head_commit.message }}\"},
                     {\"type\": \"TextBlock\", \"text\": \"By: ${{ github.actor }}\"},
